@@ -56,7 +56,7 @@ I made this guide for arch_linux, but this can apply for any other UEFI bootable
 1. partition usb drive as gpt with one fat32 partition
 2. download latest arch_linux in alternative, i.e. Ubuntu, version
 3. extract the archive onto the usb drive
-4. at the end, set the flags `boot` and `esp` for the fat32 partition on the USB drive; If you'd set the mentioned flags before mounting the USB in order to extract the arch_linux archive to the fat32 partition, the partition will not mount and the extraction fails, even when mounted as the root user into `/mnt/` - the extraction succeeds when the fat32 partition is not flagged or flagged as `msftdata`
+4. label the USB in format `ARCH_` + first 6 digits from the release date, e.g. `202209`
 
 ## Sources
 
@@ -64,4 +64,12 @@ I made this guide for arch_linux, but this can apply for any other UEFI bootable
 - https://geo.mirror.pkgbuild.com/iso/2022.09.03/
 - https://www.linuxquestions.org/questions/linux-general-1/how-to-use-a-%2A-sig-file-259395/
 - https://www.wikihow.com/Verify-a-GPG-Signature
-
+- https://stackoverflow.com/questions/45580960/git-push-set-upstream-vs-set-upstream-to
+- https://jamesmcallisteronline.com/7zip-data-after-end-error/
+- https://www.baeldung.com/linux/bash-substring
+- https://duckduckgo.com/?q=gpg+sig+file&ia=web
+- https://www.wikihow.com/Verify-a-GPG-Signature
+- https://stackoverflow.com/questions/25074877/cant-check-signature-public-key-not-found
+- https://bbs.archlinux.org/viewtopic.php?id=255927
+- https://community.freepbx.org/t/gpg-verify-file-check-failed/36311/11
+- https://duckduckgo.com/?q=git+remote+add&ia=web
