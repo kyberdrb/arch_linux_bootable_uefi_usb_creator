@@ -17,7 +17,7 @@ then
 fi
 
 echo "Downloading signature file for integrity verification of the downloaded archive"
-curl --location https://geo.mirror.pkgbuild.com/iso/"${latest_arch_linux_release_version}"/archlinux-"${latest_arch_linux_release_version}"-x86_64.iso.sig --output "/tmp/arch_linux_latest.sig"
+curl --silent --location https://geo.mirror.pkgbuild.com/iso/"${latest_arch_linux_release_version}"/archlinux-"${latest_arch_linux_release_version}"-x86_64.iso.sig --output "/tmp/arch_linux_latest.sig"
 
 echo "Verifying integrity of the archive"
 gpg --keyserver-options auto-key-retrieve --verify /tmp/arch_linux_latest.sig /tmp/arch_linux_latest.iso
