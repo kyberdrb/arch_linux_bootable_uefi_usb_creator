@@ -73,3 +73,7 @@ I made this guide for arch_linux, but this can apply for any other UEFI bootable
 - https://bbs.archlinux.org/viewtopic.php?id=255927
 - https://community.freepbx.org/t/gpg-verify-file-check-failed/36311/11
 - https://duckduckgo.com/?q=git+remote+add&ia=web
+- https://forums.linuxmint.com/viewtopic.php?p=1891954#p1891954
+- https://duckduckgo.com/?q=bash+set+unset&ia=web
+- https://towardsdev.com/what-does-set-u-mean-in-a-bash-script-52b048271741
+
